@@ -1,0 +1,38 @@
+/* ChartContainer.css */
+.chart-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .chart-controls {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 16px;
+  }
+  
+  .toggle-button {
+    padding: 8px 16px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-button:hover {
+    background-color: #357abd;
+  }
+  
+  .toggle-button:focus {
+    outline: 2px solid #357abd;
+    outline-offset: 2px;
+  }
+  
+  .chart-display {
+    width: 100%;
+    height: 400px;
+  }
